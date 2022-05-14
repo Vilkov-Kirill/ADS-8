@@ -8,7 +8,7 @@ class Train {
         bool light;
         Cage* next = nullptr;
         Cage* prev = nullptr;
-    }
+    };
     int countOp = 0;
     Cage* first = new Cage;
     bool firstAdded = false;
@@ -16,6 +16,6 @@ class Train {
     void addCage(bool);
     int getLength();
     int getOpCount() { return countOp; }
-}
+};
 
 #endif  // INCLUDE_TRAIN_H_
